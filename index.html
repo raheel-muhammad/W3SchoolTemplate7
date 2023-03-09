@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-image" style="width:40%">
+            <div class="big-img"></div>
+        </div>
+        <div class="right-side-container">
+            <span class="side-menu" style="width:auto;right:0" onclick="openNav()">
+                <i class="fa fa-bars">
+                </i>
+            </span>
+            <header class="heading-container" style="padding:128px 16px" id="home">
+                <h1 class="title-main"><b>Jane Doe</b></h1>
+                <p>Photographer and Web Designer.</p>
+                <img src="https://www.w3schools.com/w3images/profile_girl.jpg"
+                    style="display:block; width:60%; margin:auto;" class="image">
+                <button class="resume">
+                    <i class="fa fa-download">
+                    </i>
+                    Download Resume
+                </button>
+            </header>
+            <div class="portfolio-section">
+                <h2 class="heading-gray">My Portfolio</h2>
+                <hr class="line-break">
+                <div class="grid-section" style="margin:0 -16px">
+                    <div class="half-grid">
+                        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
+                    </div>
+
+                    <div class="half-grid">
+                        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h2>About</h2>
+                <hr class="line-break">
+                <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                <h3 class="heading-grey">My Skills</h3>
+                <p class="paragraph-grey">Photography</p>
+                <div class="light-grey">
+                    <div class="dark-grey" style="width:95%">95%</div>
+                </div>
+                <p class="web-des">Web Design</p>
+                <div class="light-grey">
+                    <div class="dark-grey" style="width:85%">85%</div>
+                </div>
+                <p class="photo">Photoshop</p>
+                <div class="light-grey">
+                    <div class="dark-grey" style="width:80%">80%</div>
+                </div>
+                <br>
+                <div class="row-table">
+                    <div class="row-part">
+                        <span class="row">14+</span>
+                        <br>
+                        partners
+                    </div>
+                    <div class="row-part">
+                        <span class="row">55+</span>
+                        <br>
+                        Projects Done
+                    </div>
+                    <div class="row-part">
+                        <span class="row">89+</span>
+                        <br>
+                        Happy Clients
+                    </div>
+                    <div class="row-part">
+                        <span class="row">150+</span>
+                        <br>
+                        Meetings
+                    </div>
+                </div>
+                <button class="resume">
+                    <i class="fa fa-download">
+                    </i>
+                    Download Resume
+                </button>
+                <h3 class="repo">My Reputation</h3>
+                <div class="edit-image"><img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" class="img"
+                        style="width:80px"></div>
+                <p>
+                    <span class="pic">Chandler Bing.</span>
+                    Web Designer.
+                </p>
+                <p>Jane Doe is just awesome.I am so happy to have met her!</p>
+                <br>
+                <div class="edit-image"><img src="https://www.w3schools.com/w3images/bandmember.jpg" class="img"
+                        style="width:80px"></div>
+                <p>
+                    <span class="pic">Chris Fox.</span>
+                    CEO at Mighty schools.
+                </p>
+                <p>Jane Doe saved us from a web disaster.</p>
+                <br>
+                <div class="edit-image"><img src="https://www.w3schools.com/w3images/avatar_g2.jpg" class="img"
+                        style="width:80px"></div>
+                <p>
+                    <span class="pic">Rebecca Flex.</span>
+                    CEO at Company.
+                </p>
+                <p>No one is better than Jane Doe.</p>
+                <br>
+                <h3 class="My-price">My Price</h3>
+                <div class="price" style="margin:0 -16px">
+                    <div class="half">
+                        <ul class="price-half">
+                            <li class="basic">Basic</li>
+                            <li class="basic1">Web Design</li>
+                            <li class="basic1">Photography</li>
+                            <li class="basic1">5GB Storage</li>
+                            <li class="basic1">Mail Support</li>
+                            <li class="basic1">
+                                <h2>$ 10</h2>
+                                <span class="line-break">per month</span>
+                            </li>
+                            <li class="shadow">
+                                <button class="btn">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price1">
+                        <ul class="price-half">
+                            <li class="pro">Pro</li>
+                            <li class="basic1">Web Design</li>
+                            <li class="basic1">Photography</li>
+                            <li class="basic1">50GB Storage</li>
+                            <li class="basic1">Endless Support</li>
+                            <li class="basic1">
+                                <h2>$ 25</h2>
+                                <span class="line-break">per month</span>
+                            </li>
+                            <li class="shadow">
+                                <button class="btn">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-section" style="margin-bottom: 0cqmin64px">
+                <h2>Contact Me</h2>
+                <hr class="line-break">
+                <div class="location">
+                    <p>
+                        <i class="fa fa-map-marker" class="icon">
+                        </i>
+                        Chicago, US
+                    </p>
+                    <p>
+                        <i class="fa fa-phone" class="icon">
+                        </i>
+                        Phone: +00 151515
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope" class="icon">
+                        </i>
+                        Email: mail@mail.com
+                    </p>
+                </div>
+                <img src="https://www.w3schools.com/w3images/map.jpg" style="width:100%;margin:32px 0" class="map">
+                <p>Lets get in touch. Send me a message:</p>
+                <form action="/action_page.php" target="_blank">
+                    <p>
+                        <input class="input" placeholder="Name" required name="Name">
+                    </p>
+                    <p>
+                        <input class="input" placeholder="Email" required name="Email">
+                    </p>
+                    <p>
+                        <input class="input" placeholder="Subject" required name="Subject">
+                    </p>
+                    <p>
+                        <input class="input" placeholder="Message" required name="Message">
+                    </p>
+                    <p>
+                        <button class="resume">
+                            <i class="fa fa-paper-plane">
+                            </i>
+                            SEND MESSAGE
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <footer class="link" style="margin:-24px">
+                <i class="fa fa-facebook-official">
+                </i>
+                <i class="fa fa-instagram">
+                </i>
+                <i class="fa fa-snapchat">
+                </i>
+                <i class="fa fa-pinterest-p">
+                </i>
+                <i class="fa fa-twitter">
+                </i>
+                <i class="fa fa-linkedin">
+                </i>
+                <p class="medium">Powered by
+                    <a href="https://computingyard.com/" target="blank" class="powered">Computing Yard </a>
+                </p>
+            </footer>
+        </div>
+</body>
+
+</html>
