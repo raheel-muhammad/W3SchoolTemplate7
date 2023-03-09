@@ -30,18 +30,15 @@
     padding-left: 10px;
     background-color: #fff;
     z-index: 1;
+    color: #616161;
 }
 
 .side-menu:hover {
     color: #000;
-    background-color: #757575;
+    background-color: #ccc;
 }
 
-i {
-    color: #757575;
-}
-
-.portfolio-section {
+. .portfolio-section {
     padding-top: 32px !important;
     padding-bottom: 32px !important;
     max-width: 980px;
